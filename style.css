@@ -65,14 +65,43 @@ h4 {
 p.sansserif {
 font-family: Arial Narrow;
 }
-
+@media (max-width:450px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+    
+    img {
+       width: 250px;
+       height: 200px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    h4 {
+        font-size: 14px;
+    }
+}
+    mark {
+        background-color: rgb(98, 19, 19);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 12px;
+        border-radius: 20px;
+    }
 @media (max-width:400px) {
 h1 {
     font-size: 20px;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 img {
@@ -91,9 +120,9 @@ h4 {
 mark {
     background-color: rgb(98, 19, 19);
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 11px;
+    padding: 12px;
     border-radius: 20px;
 }
 }
@@ -103,7 +132,7 @@ mark {
     }
     
     h2 {
-        font-size: 11px;
+        font-size: 10px;
     }
     
     img {
@@ -122,7 +151,7 @@ mark {
     mark {
         background-color: rgb(98, 19, 19);
         color: white;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: bold;
         padding: 11px;
         border-radius: 20px;
