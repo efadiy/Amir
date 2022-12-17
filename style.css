@@ -1,7 +1,7 @@
 mark {
     background-color: rgb(98, 19, 19);
     color: white;
-    font-size: 17px;
+    font-size: 22px;
     font-weight: bold;
     padding: 12px;
     border-radius: 30px;
@@ -43,12 +43,12 @@ h2 {
 }
 
 h11 {
-    font-family : cursive;
+    font-family : Arial Narrow;
     font-size : 15px;
 }
 
 h12 {
-    font-family : cursive;
+    font-family : Arial Narrow;
     font-size : 15px;
 }
 
@@ -68,15 +68,11 @@ font-family: Arial Narrow;
 
 @media (max-width:400px) {
 h1 {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 h2 {
-    font-size: 14px;
-}
-
-p {
-   font-size: 23px;
+    font-size: 13px;
 }
 
 img {
@@ -85,11 +81,11 @@ img {
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h4 {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 mark {
@@ -101,3 +97,34 @@ mark {
     border-radius: 20px;
 }
 }
+@media (max-width:350px) {
+    h1 {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 12px;
+    }
+    
+    img {
+       width: 250px;
+       height: 200px;
+    }
+    
+    h5 {
+        font-size: 12px;
+    }
+    
+    h4 {
+        font-size: 12px;
+    }
+    
+    mark {
+        background-color: rgb(98, 19, 19);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 11px;
+        border-radius: 20px;
+    }
+    }
