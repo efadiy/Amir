@@ -1,0 +1,103 @@
+mark {
+    background-color: rgb(98, 19, 19);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+img {
+   border-radius: 20px;
+   display: block;
+   margin: 25px ;
+}
+
+a{
+ text-decoration: none;
+ color: rgb(98, 19, 19);
+ font-family : Arial Narrow;
+
+}
+
+p:lang(en_US) {
+font-family : Arial Narrow;
+font-size : 15px;
+}
+
+h1:lang(en_US) {
+font-family : Arial Narrow;
+font-size : 10px;
+}
+
+h1 {
+    font-family : Arial Narrow;
+    font-size : 40px;
+    color: white;
+}
+
+h2 {
+    font-family : Arial Narrow;
+    font-size : 17px;
+    color: white;
+}
+
+h11 {
+    font-family : cursive;
+    font-size : 15px;
+}
+
+h12 {
+    font-family : cursive;
+    font-size : 15px;
+}
+
+h5 {
+    font-family : Arial Narrow;
+    font-size : 20px;
+}
+
+h4 {
+    font-family : Arial Narrow;
+    font-size : 20px;
+}
+
+p.sansserif {
+font-family: Arial Narrow;
+}
+
+@media (max-width:400px) {
+h1 {
+    font-size: 23px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+   font-size: 23px;
+}
+
+img {
+   width: 250px;
+   height: 200px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+mark {
+    background-color: rgb(98, 19, 19);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 20px;
+}
+}
