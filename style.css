@@ -15,7 +15,7 @@ img {
 
 a{
  text-decoration: none;
- color: rgb(52, 26, 201);
+ color: rgb(13, 93, 150);
  font-family : Arial Narrow;
 
 }
@@ -66,7 +66,7 @@ p.sansserif {
 font-family: Arial Narrow;
 }
 hr {
-    color: rgb(98, 19, 19);
+    color: white;
 }
 @media (max-width:450px) {
     h1 {
